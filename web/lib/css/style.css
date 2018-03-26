@@ -1,0 +1,102 @@
+.Top{
+    position: absolute;
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 48px;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #2e2f35;
+}
+
+
+.Menu{
+    float: left;
+    display: block;
+    height: 70px; 
+    background: #2e2f35;
+    padding: 30px;
+    padding-top: 25px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+.Menu:hover{
+    opacity: 1;
+    cursor: pointer;
+    background: #2e2f35;
+}
+.Menu_comein{
+    float: left;
+    display: block;
+    height: 70px; 
+    background: #2e2f35;
+    padding: 30px;
+    padding-top: 25px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+.Menu_comein:hover{
+    opacity: 1;
+    cursor: pointer;
+    background: #2e2f35;
+}
+
+   
+
+.logout{
+    float: left;
+    display: block;
+    height: 70px; 
+    background: #2e2f35;
+    padding: 30px;
+    padding-top: 25px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+}
+.logout:hover{
+    opacity: 1;
+    cursor: pointer;
+    background: #2e2f35;
+}    
+
+.menu_strip{
+    position: absolute;
+    top: 70px;
+    left: 0px;    
+}
+
+.signin{
+    position: absolute;
+    top: 150px;
+    left: 40%;  
+}
+
+.tabel{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    right: 30px;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 35px;
+    background:#2e2f35;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+	
+}
+.thumbnail:hover{
+    border: 2px solid blue;
+}
