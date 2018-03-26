@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ultimate Fighting Championship</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../lib/css/style.css" rel="stylesheet">
+        <link href="../lib/css/styles.css" rel="stylesheet"> 
+        <script src="../service/CategoryService.js"></script>
+        <script src="../service/ContentService.js"></script>
+        <script src="../controllers/CategoryController.js"></script>
+        <script src="../controllers/ContentController.js"></script>
+     
+        
+        <script>
+            function getCookie(name) {
+                var matches = document.cookie.match(new RegExp(
+                  "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                ));
+                return matches ? decodeURIComponent(matches[1]) : undefined;
+                 }
+        </script>
+        
+    </head>
+
+  <body>
+    <div class="Top">
+        <a href="/ufc/index.html"><div class="Menu">Главная</div></a>
+      
+    </div>
+   
+    <div class="hotel_discript">  
+        <div class="container">
+            <div class="row">
+                <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                <div id="content" class="col-lg-8 col-md-8 col-sm-8 col-xs-8"></div>  
+                <div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+            </div>
+        </div>
+    </div>    
+       
+        
+    <!--  ================================================== -->
+    <script src="../lib/js/jquery.min.js"></script>
+    <script src="../lib/js/bootstrap.min.js"></script>
+    <script>
+         window.onload = function()
+         {
+            var url = new URL(document.location.href);
+            var id= url.searchParams.get("id");
+            var contentController =  new ContentController();
+            contentController.getContentByIdView(id);
+         }
+         
+        
+         
+    </script>
+    
+  </body>
+</html>
